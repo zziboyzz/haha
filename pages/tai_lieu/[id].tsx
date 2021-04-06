@@ -176,7 +176,7 @@ const CustomToolbarExample: React.FC<CustomToolbarExampleProps> = ({ postLink, f
             >
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
                 <Viewer
-                    fileUrl={"/pdffile/"+fileDirect[postLink]+"/" + postLink + ".pdf"}
+                    fileUrl={"/pdffile/"+ String(fileDirect[postLink])+"/" + postLink + ".pdf"}
                     plugins={[
                         toolbarPluginInstance,
                         getFilePluginInstance,
