@@ -1,0 +1,25 @@
+.recolor {
+    padding-top: 9px;
+}
+
+.web_name {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.menu_icon {
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .recolor {
+        padding-top: 9px;
+    }
+    .web_name {
+        font-size: 12px;
+        padding-top: 14px;
+    }
+    .menu_icon {
+        font-size: 10px;
+    }
+}
